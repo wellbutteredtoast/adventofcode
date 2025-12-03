@@ -36,6 +36,7 @@ def hits_during_rotation_bruteforce(pos: int, turn: str, dist: int) -> int:
                 count += 1
     return count
 
+# NOTE: Verbose is always true, without it, we can't see the password...
 def process(directions: List[str], verbose: bool = True) -> Tuple[int,int,int]:
     cur = 50
     part1 = 0
